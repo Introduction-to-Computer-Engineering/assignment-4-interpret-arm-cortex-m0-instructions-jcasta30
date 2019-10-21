@@ -23,7 +23,7 @@ All the instruction links and one of the footnotes come from this [ARM Cortex-M0
 | | [ble](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABEFHAE.html)<sup>[2](#footnotes)</sup>     `.L4` | Branch to .L4 if r3 is greater than zero |
 | | [ldr](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r3, [sp, #4]` | Load r3 from the address sp + 4 |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r0, r3` | Write/Copy value of r3 to r0, also updates the N and Z flags |
-| | [bl](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABEFHAE.html)      `negate` | |
+| | [bl](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABEFHAE.html)      `negate` | Branch with link (Call) to function negate, return address; stored in lr  |
 | | [movs](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABHGAJI.html)    `r3, r0` | Write/Copy value of r0 to r3, also updates the N and Z flags |
 | | [str](http://infocenter.arm.com/help/topic/com.arm.doc.dui0497a/BABJGHFJ.html)     `r3, [sp, #4]` | Write (the contents of) r3 to the memory with address sp + 4 |
 | | | |
